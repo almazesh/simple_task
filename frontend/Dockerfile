@@ -26,6 +26,6 @@ COPY --from=build /app/build /usr/share/nginx/html
 # Копирование конфигурации nginx
 COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 3001
+EXPOSE 3000
 
 CMD ["nginx", "-g", "daemon off;"]
