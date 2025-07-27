@@ -22,6 +22,8 @@ coverage.xml
 .hypothesis
 
 # Build outputs
+dist/
+build/
 *.egg-info/
 
 # Environment variables
